@@ -1,0 +1,25 @@
+{
+    "name": "codeexpert/yii2-semantic-ui",
+    "type": "library",
+    "description": "Semantic UI integration for Yii2.",
+    "keywords": ["yii", "yii2", "semantic-ui", "semantic", "ui"],
+    "homepage": "https://github.com/pgrzelka/yii2-semantic-ui",
+    "authors": [
+        { "name": "Piotr Grzelka", "email": "info@codeexpert.pl", "homepage": "http://codeexpert.pl" }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "semantic/ui": "dev-css"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "codeexpert\\semanticui\\": ""
+        }
+    }
+}
